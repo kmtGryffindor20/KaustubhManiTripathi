@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+img{
+    display: inline-block;  
+}
+h1{
+    font-family: 'Lily Script One', cursive;
+    font-weight: lighter;
+    margin-top: 0;
+    padding-top: 80px;
+    font-size: 90px;
+    color: #66BFBF;
+}
+div{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.intro{
+    position: relative;
+    background-color: rgb(173, 234, 248);
+}
+
+.up_cloud{
+    position: absolute;
+    right: 200px;
+    top: 100px;
+}
+.down_cloud{
+    position: absolute;
+    left:200px;
+    bottom: 200px;
+}
+
+.rounded{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+h2{
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+p{
+    font-size: 30px;
+    width: 1000px;
+    margin: 20px auto 20px auto;
+}
+.blue{
+    position: relative;
+    background-color: rgb(173, 234, 248);
+}
+
+hr{
+    background-color: white;  
+    width: 5%;
+    border-width: 5px;
+    border-style: dotted none none none;
+    border-color:#66BFBF;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.btn {
+    background: rgb(173, 234, 248);
+    background-image: -webkit-linear-gradient(top, rgb(173, 234, 248), #73d1d1);
+    background-image: -moz-linear-gradient(top, rgb(173, 234, 248), #73d1d1);
+    background-image: -ms-linear-gradient(top, rgb(173, 234, 248), #73d1d1);
+    background-image: -o-linear-gradient(top, rgb(173, 234, 248), #73d1d1);
+    background-image: linear-gradient(to bottom, rgb(173, 234, 248), #73d1d1);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 13px;
+    font-family: 'Bebas Neue', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 25px 10px 25px;
+    border: solid #509c9c 2px;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .btn:hover {
+    background: #73d1d1;
+    background-image: -webkit-linear-gradient(top, #73d1d1, rgb(173, 234, 248));
+    background-image: -moz-linear-gradient(top, #73d1d1, rgb(173, 234, 248));
+    background-image: -ms-linear-gradient(top, #73d1d1, rgb(173, 234, 248));
+    background-image: -o-linear-gradient(top, #73d1d1, rgb(173, 234, 248));
+    background-image: linear-gradient(to bottom, #73d1d1, rgb(173, 234, 248));
+    text-decoration: none;
+  }
+
+a{
+    color:#66BFBF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 30px;
+}
+
+a:hover{
+    color: white;
+}
+
+.copyright{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
